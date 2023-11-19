@@ -148,7 +148,6 @@ print("#Intro_python_______________ Interacting with the User___________________
 print("#Intro_python_______________ Control Flow_________________________")
 
 
-
 print()
 print("# # Booleans  and comparision")
 print()
@@ -173,8 +172,8 @@ print()
 print()
 
 x = (7 > 5)
-print(int(x))
-print(int(not x))
+print("int(7 > 5)",int(x))
+print("int not(7 > 5)",int(not x))
 print()
 print("joining by converting each string to ord of \"hello world\"")
 s = "hello world"
@@ -195,7 +194,7 @@ if x > 5:
 
 print()
 
-print(" # else statment")
+print(" else statment")
 print()
 
 x = 4
@@ -213,20 +212,21 @@ print("1 == 1 and 2 == 2",1 == 1 and 2 == 2)
 print("1 == 1 and 2 == 3",1 == 1 and 2 == 3)
 print("1 != 1 and 2 == 2",1 != 1 and 2 == 2)
 print("2 < 1 and 3 > 6",2 < 1 and 3 > 6)
+print()
 print("#or")
 print( "1 == 1 or 2 == 2",1 == 1 or 2 == 2)
 print( "1 == 1 or 2 == 3 ",1 == 1 or 2 == 3 )
 print( "1 != 1 or 2 == 2 ",1 != 1 or 2 == 2 )
 print( "2 < 1  or 3 > 6 ",2 < 1  or 3 > 6 )
-
+print()
 print(" Boolean Not")
 
 print("not 1 == 1",not 1 == 1)
 
-
+print()
 print(" Boolean Operator preccedance      NOT > XOR > AND > OR    derived from C")
 
-print(2>3 and 4<2 or 3>3 and 2>3 or not(3>3))
+print("2>3 and 4<2 or 3>3 and 2>3 or not(3>3)",2>3 and 4<2 or 3>3 and 2>3 or not(3>3))
 print()
 
 
