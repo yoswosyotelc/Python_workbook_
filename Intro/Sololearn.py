@@ -4,6 +4,12 @@
 # # https://sololearn.com/
 
 
+
+
+
+
+
+
 # exit()
 
 print("#Intro_python_______________ Introduction to Python____________________________")
@@ -30,9 +36,26 @@ print("#Intro_python_______________ Getting Started with Python_________________
 
 # print("Workign with Text data")
 
+# print("".join(['h','i']))
+
+# print("{}{}".format(*['h','i']))
+
 # print("helower"+"pyton user")
 
+# str="3434 this is a string"
+
+# print(str.partition('is'))  # creates a partition.. add to tuples..
+
 # print(True+ False)
+
+# s='abc'   
+# i=iter(s)
+# print(next(i))   #https://www.geeksforgeeks.org/python-next-method/
+# print(next(i))
+# print(next(i))
+
+
+
 
 # print("Mixing things up")
 # print(9 + 4 - 7)
@@ -304,7 +327,7 @@ ticket_cost = 100
 total = 0 
 
 
-
+print("input 5  numbers")
 while i<=5: 
     age = int(input()) 
     if age < 3: 
@@ -408,6 +431,14 @@ print("#Intro_python_______________ Lists______________________________")
 # while i<=5:
     # print(i)
     # i+=1
+
+
+#Python next() method
+# list=[1,2,3,4]
+# a=(i**2 for i in list)
+# print(a)
+# print(next(a),next(a))  #https://www.geeksforgeeks.org/python-next-method/
+
 
 
 # # https://www.geeksforgeeks.org/python-range-function/       #Syntax of Python range() function
@@ -940,6 +971,57 @@ exit()
 
 
 print("Intro_python_______________ Functions________________________________")
+
+
+
+# #from challenges..Function..??
+# a=()
+# def func(n):
+    # k=()
+    # k=k+n
+    # return k
+    # return k
+# for i in range(0,5,2):
+    # a+=func((i,i+1))
+# print(len(a))
+
+
+# def count(n=0):
+    # while True:
+        # yield(yield n)
+        # n+=1
+# a=count()
+# next(a)
+# print(a.send(5),end="")
+# print(a.send('a'))
+
+
+# Use Pop In Python to Remove an Item and Return It
+
+# a=list(range(0,100))
+# def function(x):
+    # a.pop(x-1):
+    # return(a)
+# for i in range(0,100):
+    # n=101-i
+    # function(n)
+# print(len(a))
+
+
+cars = ['Mercedes Benz', 'BMW', 'Jeep', 'Mahindra', 'Maserati']
+
+print(cars)
+
+# Using pop() and storing the return value
+
+ret_val = cars.pop(2)
+
+print('The return value is:', ret_val)
+
+# Updated List
+
+print('The updated list is:', cars)
+
 
 
 
