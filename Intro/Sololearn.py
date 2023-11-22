@@ -6,6 +6,12 @@
 
 
 
+# the remove method working 
+l = ['Alice', 'Bob', 'Charlie', 'Bob', 'Dave']
+
+l.remove('Alice')
+print(l)
+# ['Bob', 'Charlie', 'Bob', 'Dave']
 
 
 
