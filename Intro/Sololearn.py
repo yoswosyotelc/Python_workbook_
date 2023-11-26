@@ -6,18 +6,7 @@
 
 
 
-# the remove method working 
-l = ['Alice', 'Bob', 'Charlie', 'Bob', 'Dave']
-
-l.remove('Alice')
-print(l)
-# ['Bob', 'Charlie', 'Bob', 'Dave']
-
-
-
-
-# exit()
-
+exit()
 print("#Intro_python_______________ Introduction to Python____________________________")
 
 
@@ -43,6 +32,9 @@ print("#Intro_python_______________ Getting Started with Python_________________
 # print("Workign with Text data")
 
 # print("".join(['h','i']))
+
+# x=1024
+# print(isinstance(x,str))
 
 # print("{}{}".format(*['h','i']))
 
@@ -83,6 +75,11 @@ print("#Intro_python_______________ Getting Started with Python_________________
 # print()
 # print("Balance", 5000,sep=":")
 # print(4%5) #is 4 .. any thing less than ... would be itself
+
+# x=(1,2,3)
+# print(*x)
+# print(*x,sep="1")
+# print(*x,sep="1",end="3")
 
 # exit()
 
@@ -176,7 +173,7 @@ print("#Intro_python_______________ Interacting with the User___________________
 
 print("#Intro_python_______________ Control Flow_________________________")
 
-
+exit()
 print()
 print("# # Booleans  and comparision")
 print()
@@ -284,6 +281,23 @@ while x > 0:
 
 print(sum)
 
+# other possilble way
+print()
+i=0
+for x in range(8):
+    if x%2==0:
+        # print(x)
+        i+=x
+     # i+=1   
+
+print(i)
+
+print()
+func=lambda x:x%2==0
+abc=list(filter(func,range(8)))
+print(sum(abc))
+
+
 print()
 x = 1
 while x < 10:
@@ -362,6 +376,19 @@ print("#Intro_python_______________ Lists______________________________")
 
 
 
+
+# exit()
+# a=[1,2,3,4]
+# b=a.copy()
+# print(b)
+# b.append(a)
+# print(b)
+# a.append(b)
+# print(a)
+# print(len(a))
+# print(len(b))
+
+
 # m = [
     # [1, 2, 3],
     # [4, 5, 6]
@@ -389,6 +416,41 @@ print("#Intro_python_______________ Lists______________________________")
 
 
 
+# y=[x if x==1 else x*2 for x in ["1","2"]][0]
+
+# print([x if x==1 else x*2 for x in ["1","2"]])
+
+
+# a=[2,4,6,8]
+# b=a
+# print(b)
+
+
+# b[0]=7
+# a[3]=9
+
+# print(a)
+
+# b.append(5)
+
+
+# print(a)
+
+
+
+
+
+# L=list(range(10))
+
+# print(L)
+# print(L.pop())#remove the last
+# print(L)
+# print(max(L))
+
+
+# word="bringback"
+# print(word[::-2])
+
 
 # iterate throguh a list and dump the list
 # for nums in len(x):
@@ -402,6 +464,11 @@ print("#Intro_python_______________ Lists______________________________")
 
 
 
+# #diffrence b/n list and map>>???
+# abc=list(range(5))
+# sq=list(map(lambda x:x**2,range(5)))
+# print(abc)
+# print(sq)
 
 # for i in range(len(x)):
     # print(x[i])
@@ -417,6 +484,9 @@ print("#Intro_python_______________ Lists______________________________")
 
 # # to add all odd nubmer in list...
 
+# b=[1,2,3,4,5]
+# print(b[1:-2])
+# print(b[1:-1])
 
 
 # nums = [1,2,3,4]
@@ -430,6 +500,17 @@ print("#Intro_python_______________ Lists______________________________")
         # res+=x      #res = res+x
         
 # print(res)
+
+
+
+# i=list(range(1,4))
+# # i=list(range(4))
+# print(i)
+# # s=list(map(lambda x:x**2,i)) 
+# s=list(filter(lambda x:x**2,i))
+# print(s)
+# print(sum(s))
+
 
 
 
@@ -447,6 +528,12 @@ print("#Intro_python_______________ Lists______________________________")
 
 
 
+# fib=[0,1,1,2,3,5,8,13]
+# # print(fib[::2])
+# print(fib[2::2])
+
+
+
 # # https://www.geeksforgeeks.org/python-range-function/       #Syntax of Python range() function
 
 # # Syntax: range(start, stop, step)
@@ -455,6 +542,13 @@ print("#Intro_python_______________ Lists______________________________")
 # for i in range(5):
 	# print(i, end=" ")
 # print()
+
+## The remove method working 
+# l = ['Alice', 'Bob', 'Charlie', 'Bob', 'Dave']
+
+# l.remove('Alice')
+# print(l)
+# ['Bob', 'Charlie', 'Bob', 'Dave']
 
 
 # # In this example, we are printing the number from 0 to 5. We are using the range function in which we are passing the stopping of the loop... printing first 6  whole number
@@ -1001,6 +1095,29 @@ print("Intro_python_______________ Functions________________________________")
 # print(a.send(5),end="")
 # print(a.send('a'))
 
+# def gen():
+    # global a
+    # for num in [2,4,8]:
+        # a+=1
+        # yield (num*0.5)
+# a=0.0
+
+# # print(gen())
+
+# lst=[]
+# for val in gen():
+    # lst.append(int(a==val))
+# print(sum(lst))
+
+
+# def fun(n):
+    # if(n>100):
+        # return n-5
+    # return fun(fun(n+11))
+
+# print(fun(2))
+# # print(fun(105))
+
 
 # Use Pop In Python to Remove an Item and Return It
 
@@ -1030,6 +1147,22 @@ print('The updated list is:', cars)
 
 
 
+# import numpy as np
+ # # b=np.array([[2,5],[3,7]])
+# ak=np.array([[11,[2,2],[2,2],34],[34,34,3]])
+# ak=ak.transpose();
+
+# print(ak)
+
+# ar1=np.array([[2,5],[3,7]])
+# ar1=ar1.transpose();
+# print(ar1)
+
+
+
+# arr1=np.array([[1,2,3],[4,5,6]])
+
+# print(arr1)
 
 
 # # # #_______List function
