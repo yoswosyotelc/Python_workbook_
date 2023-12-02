@@ -1,7 +1,20 @@
-# @#$!@#$@!#$ hhhh### << ///Nov_2023..??>> @ @#$@%#!@%!Saving??@!#$@!#$@!#$!@#$@!#$@
-# # !!!!! don't stay at one part for more than 1 weekds...!!!!
-# # !!!!! proceed as you go through by commenting .. for furhter refirinement..
-# # https://sololearn.com/
+# @#$!@#$@!#$Progress### << ///Dec_2023..??>> @ @#$@%#!@%!Saving??@!#$@!#$@!#$!@#$@!#$
+# !!!!! don't stay at one part for more than 1 weekds...!!!!
+# !!!!! proceed as you go through by commenting .. for furhter refirinement..
+# //..//...//..midas activators..//...//..//..//..//...//
+# lavteam.org
+# 5CEB050C-6ECC0D2B-B222E110-C7E4607A
+# //..//...//..//...//..//..//..//...//
+# C:\Users\User\AppData\Local\Programs\Python\Python311
+# //..//...//..//...//..//..//..//...//
+
+
+
+
+
+
+
+
 
 
 
@@ -13,7 +26,7 @@ print("#Intro_python_______________ Introduction to Python______________________
 # print(7//2) # floor quoteent
 # print(13%2) # modular operator remainder
 # print("Welcome to the Code Playground")
-
+#https://peps.python.org/pep-0008/
 
 # exit()
 
@@ -38,6 +51,15 @@ print("#Intro_python_______________ Getting Started with Python_________________
 
 # print("{}{}".format(*['h','i']))
 
+# a=2
+# b=3;
+# c="{a}{b}{ab}";
+# d=c.format(a=4,b=5,ab=a*b);
+# print(d)
+
+# print("shdfdf"[3])
+
+
 # print("helower"+"pyton user")
 
 # str="3434 this is a string"
@@ -45,6 +67,8 @@ print("#Intro_python_______________ Getting Started with Python_________________
 # print(str.partition('is'))  # creates a partition.. add to tuples..
 
 # print(True+ False)
+# s="hello"
+# print(*s)
 
 # s='abc'   
 # i=iter(s)
@@ -59,7 +83,7 @@ print("#Intro_python_______________ Getting Started with Python_________________
 # print(9 + 4 - 7)
 # print(9//4) #divide 9 how much to 4....that is...becomes...2
 # print(9%2)  #modular..///remander.. left for 9 to 2.. that is becomes...1
-
+# print(1%2)
 # print()
 
 # # #data types... 
@@ -71,6 +95,12 @@ print("#Intro_python_______________ Getting Started with Python_________________
 # print(int(5.0))       #integer 
 # print(chr(71))        # chr() builtin function
 # print("hey man"+ "i am good") #concatination
+
+# import math
+# a=pow(6,7)
+# b=math.pow(6,7)
+# print(a)
+# print(b)
 
 # print()
 # print("Balance", 5000,sep=":")
@@ -91,6 +121,7 @@ print("#Intro_python_______________ Getting Started with Python_________________
 # x = 42       #integer
 # y = "Hello"  #string
 # z = 3.14     #float
+# print(type(1J))   # complex number
 
 
 
@@ -133,6 +164,7 @@ print("#Intro_python_______________ Interacting with the User___________________
 # age=input()
 # print(name+ "is"+ age)
 
+# 
 # print()
 # print()
 
@@ -233,6 +265,8 @@ print()
 print("# Boolean Logic")
 print()   
 
+print(3.0==3) 
+print(0.0==0) 
 print("#and")
 print("1 == 1 and 2 == 2",1 == 1 and 2 == 2)
 print("1 == 1 and 2 == 3",1 == 1 and 2 == 3)
@@ -251,7 +285,7 @@ print("not 1 == 1",not 1 == 1)
 
 print()
 print(" Boolean Operator preccedance      NOT > XOR > AND > OR    derived from C")
-
+print(not True and True)
 print("2>3 and 4<2 or 3>3 and 2>3 or not(3>3)",2>3 and 4<2 or 3>3 and 2>3 or not(3>3))
 print()
 
@@ -293,6 +327,14 @@ for x in range(8):
 print(i)
 
 print()
+
+# import itertools as it
+# for i in it.count(1):
+    # if(100-i==0):
+        # break
+    # print(i)
+
+
 func=lambda x:x%2==0
 abc=list(filter(func,range(8)))
 print(sum(abc))
@@ -376,6 +418,9 @@ print("#Intro_python_______________ Lists______________________________")
 
 
 
+# ar=[2,1,3]#,"a",3]
+# ar.sort()
+# print(ar)
 
 # exit()
 # a=[1,2,3,4]
@@ -436,9 +481,22 @@ print("#Intro_python_______________ Lists______________________________")
 
 # print(a)
 
+# print()
+
+# a,b=[0],[0]
+# a,b=b,a
+
+# print(b,a)
+# print(a)
+# print(b)
+# print(a is b)
+# if (a is b):
+    # print(True)
+# else:
+    # print(False)
 
 
-
+# print()
 
 # L=list(range(10))
 
@@ -462,6 +520,10 @@ print("#Intro_python_______________ Lists______________________________")
 # # iterate throguh a list and dump the list
 # print(list(range(len(x))))
 
+# games=['tennis','footballes','cricket']
+# for item in games:
+    # if 'ball' in item:
+        # print(item)
 
 
 # #diffrence b/n list and map>>???
@@ -511,6 +573,9 @@ print("#Intro_python_______________ Lists______________________________")
 # print(s)
 # print(sum(s))
 
+# my_list=["apples","tomatoes","banana","orange","melons"]
+# my_list.sort(key=lambda x:x[-2])
+# print(my_list[1])
 
 
 
@@ -1146,6 +1211,12 @@ print('The return value is:', ret_val)
 print('The updated list is:', cars)
 
 
+# def f(x,a=[]):
+    # for i in range(x):
+        # a.append(i*i)
+    # print(a)
+
+# f(2)
 
 # import numpy as np
  # # b=np.array([[2,5],[3,7]])
@@ -1164,6 +1235,16 @@ print('The updated list is:', cars)
 
 # print(arr1)
 
+
+# print()
+
+# import numpy as np
+# a=np.array([1,2,3,5,8])
+# b=np.array([0,3,4,2,1])
+# c=a+b
+# print(c)
+# c=c*a
+# print(c)
 
 # # # #_______List function
 
@@ -1316,6 +1397,13 @@ print('The updated list is:', cars)
 # # # # # print(int('4.0')+int('3'))    
 
 
+# def testFunc(x,y=[]):
+    # y.append(x)
+    # return y
+# a= testFunc(1)
+# b= testFunc(2,[])
+# c= testFunc(3)
+# print(c)
 
 
 
@@ -1336,13 +1424,18 @@ print("Inter_Python_____________Dictonary// ___________________")
 
 
 
-
-
-
 # # from math import pi
 # my="one","tw","thre"
 
 # print(my[0])
+
+# def func(n):
+    # y='+'.join(str(x)for x in range(n))
+# # print('+'.join(str(x)for x in range(7)))
+    # return (eval(y))
+# print(func(7))
+
+
 
 
 print("Inter_Python_____________Tuples// ___________________")
@@ -1356,6 +1449,13 @@ print("Inter_Python_____________Tuples// ___________________")
     # ('Bob', 18)
 # ]
 
+# t1=(1,2,3)
+# t2=('a','b','c')
+# print(tuple(zip(t1,t2))[1][0])
+
+
+
+
 # contacts=dict(contacts)    #let it be taught/ treated...as dictonary.. ignoring .get(amanda)
 # name=input()
 # if name in contacts:
@@ -1368,6 +1468,12 @@ print("Inter_Python_____________Tuples// ___________________")
 
 
 
+# a=(0)
+# b=[0],[[0]],{0},[(0)]
+# print(b)
+
+# for i in b:
+    # print(a in i)
 
 
 
