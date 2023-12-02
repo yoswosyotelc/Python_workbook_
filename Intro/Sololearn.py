@@ -1,9 +1,6 @@
 # @#$!@#$@!#$Progress### << ///Dec_2023..??>> @ @#$@%#!@%!Saving??@!#$@!#$@!#$!@#$@!#$
 # !!!!! don't stay at one part for more than 1 weekds...!!!!
 # !!!!! proceed as you go through by commenting .. for furhter refirinement..
-# //..//...//..midas activators..//...//..//..//..//...//
-# lavteam.org
-# 5CEB050C-6ECC0D2B-B222E110-C7E4607A
 # //..//...//..//...//..//..//..//...//
 # C:\Users\User\AppData\Local\Programs\Python\Python311
 # //..//...//..//...//..//..//..//...//
@@ -12,15 +9,8 @@
 
 
 
-
 exit()
 
-
-
-
-
-
-exit()
 print("#Intro_python_______________ Introduction to Python____________________________")
 
 
@@ -335,8 +325,10 @@ for x in range(8):
 
 print(i)
 
-print()
 
+
+
+print()
 # import itertools as it
 # for i in it.count(1):
     # if(100-i==0):
@@ -386,6 +378,18 @@ while i<5:
     continue
   print(i)
 
+print()
+
+
+
+for i in range(10):
+    # print(i)
+    if i%2==0:
+        continue
+        print(i)
+    else:
+        pass
+        print(i)
 
 
 print()
@@ -1155,6 +1159,12 @@ print(a)
 a='python'[::-1][::-1].endswith('n')
 print(a)
 
+mylist=list(range(5))
+n=id(mylist)
+mylist[:]=[x for x in mylist if x%2]
+print(id(mylist)==n)
+
+
 
 
 exit()
@@ -1464,6 +1474,12 @@ def swap(x,y):
     return(x,y);
     
 print(swap(5,9))
+
+
+import numpy as np
+a = np.array([[1,2,3],[0,1,4]])
+print(a.size)
+
 
 
 exit()
