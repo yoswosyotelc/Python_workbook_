@@ -13,6 +13,7 @@
 
 
 
+exit()
 
 
 
@@ -41,6 +42,9 @@ print("#Intro_python_______________ Getting Started with Python_________________
 # print(7-5+6/2*3)
 # print()
 # print()
+# a=range(6)
+# r=a[3+1]*4%3    #operator precedance..?? Multiply after modulo
+# print(r)
 
 # print("Workign with Text data")
 
@@ -105,6 +109,11 @@ print("#Intro_python_______________ Getting Started with Python_________________
 # print()
 # print("Balance", 5000,sep=":")
 # print(4%5) #is 4 .. any thing less than ... would be itself
+
+# a=list(range(6))
+# print(a[4])
+
+
 
 # x=(1,2,3)
 # print(*x)
@@ -1117,6 +1126,35 @@ print("#Intro_python_______________ Lists______________________________")
 # print(sqs[4:7])
 
 
+# k=list(range(0,6,2)) #covnert to list range
+# print(len(k))
+
+
+# a=[1,2,3,4]
+# b=a
+# print(b)
+# exit()
+
+import copy
+a = [[1],[2],[3]]
+b = copy.deepcopy(a) ## this will copy the list a to list b
+
+print(b)
+
+print()
+a=[1,2,3,4]
+print(a[2:2])
+
+
+a='python'[::-1]
+print(a)
+a='python'[::-1].endswith('y')
+print(a)
+a='python'[::-1][::-1]
+print(a)
+a='python'[::-1][::-1].endswith('n')
+print(a)
+
 
 
 exit()
@@ -1406,6 +1444,29 @@ print('The updated list is:', cars)
 # print(c)
 
 
+a=([{}])
+# print(a[0])
+# print(len({}))
+# print(len(a))
+
+def fun(arr):
+    if len(arr)>0:
+        return 1 +fun(arr[0])
+    return  1
+    
+print(fun(a))
+
+
+def swap(x,y):
+    x=x+y;  #14
+    y=x-y;  #14-9   5
+    x=x-y;  #14-5   9
+    return(x,y);
+    
+print(swap(5,9))
+
+
+exit()
 
 print("Inter_Python_____________Dictonary// ___________________")
 
@@ -1434,6 +1495,21 @@ print("Inter_Python_____________Dictonary// ___________________")
 # # print('+'.join(str(x)for x in range(7)))
     # return (eval(y))
 # print(func(7))
+
+
+
+# def func1():
+    # pass
+# def func2(n):
+    # if n%2==0:
+        # return None
+# print(func1())
+# print(func2(3))#6 #3
+
+
+# print(None==None)
+
+
 
 
 
@@ -1476,6 +1552,11 @@ print("Inter_Python_____________Tuples// ___________________")
     # print(a in i)
 
 
+# t1=(1,2,3)
+# t2=('a','b','c')
+# print(tuple(zip(t1,t2)))#[1][0])
+# print(tuple(zip(t1,t2))[1][0])
+
 
 
 print("Inter_python _______________ sets_________________")
@@ -1499,9 +1580,21 @@ print("Inter_python _______________ sets_________________")
 
 
 
+exit()
+print("___class")
 
-
-
+class myclass():
+    n=0
+    def __init__(self):
+        myclass.n+=1
+    def __del__(self):
+        myclass.n-=1
+a=myclass()
+print(a.n)
+b=myclass()
+print(b.n)
+a=myclass()
+print(b.n)
 
 
 
