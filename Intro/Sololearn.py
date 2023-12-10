@@ -4,24 +4,22 @@
 # //..//...//..//...//..//..//..//...//
 # C:\Users\User\AppData\Local\Programs\Python\Python311
 # //..//...//..//...//..//..//..//...//
+#codecoach.. challenges..??
+# exit()
 
 
-
-
-
-exit()
 
 print("#Intro_python_______________ Introduction to Python____________________________")
 
-
 # print(7//2) # floor quoteent
 # print(13%2) # modular operator remainder
-# print("Welcome to the Code Playground")
-#https://peps.python.org/pep-0008/
+# print("Welcome to the Code Playground")            #https://peps.python.org/pep-0008/
 
+# print("this is one");print("this is again")
 # exit()
 
-print("#Intro_python_______________ Getting Started with Python__________________________")
+
+# print("#Intro_python_______________ Getting Started with Python__________________________")
 
 
 #print("#working with Numberical data")
@@ -35,9 +33,22 @@ print("#Intro_python_______________ Getting Started with Python_________________
 # a=range(6)
 # r=a[3+1]*4%3    #operator precedance..?? Multiply after modulo
 # print(r)
-
+# print(pow(2,2,3))#(same as (2 * 2 * 2) % 5):
 # print("Workign with Text data")
-
+# from fractions import Fraction
+# frac=Fraction(2,5)
+# print(frac*10)
+# exit()
+# a=1
+# B=a+1
+# print(B,end="")
+# print(B,a,sep="0")
+# print(int(1+2-3*4/5%6))
+# exit()
+# import random
+# x=random.randint(0,120)%55
+# print(x)
+# print(int(abs(5j+1)))# complex number
 # print("".join(['h','i']))
 
 # x=1024
@@ -69,9 +80,7 @@ print("#Intro_python_______________ Getting Started with Python_________________
 # print(next(i))   #https://www.geeksforgeeks.org/python-next-method/
 # print(next(i))
 # print(next(i))
-
-
-
+# print()
 
 # print("Mixing things up")
 # print(9 + 4 - 7)
@@ -125,6 +134,7 @@ print("#Intro_python_______________ Getting Started with Python_________________
 
 
 # exit()
+
 
 
 print("#Intro_python_______________ Interacting with the User__________________________")
@@ -204,216 +214,291 @@ print("#Intro_python_______________ Interacting with the User___________________
 
 print("#Intro_python_______________ Control Flow_________________________")
 
-exit()
-print()
-print("# # Booleans  and comparision")
-print()
-print("2==3",2 == 3)           #equal.......... not assign
-print("2 > 3 and 2<2",2 > 3 and 2<2)    #and 
-print("2 > 3 and 2==2",2 > 3 and 2==2)   #lessthan ..... greaterthan ......comparative
-print("2 == 3 or 2>=2",2 == 3 or 2>=2)   #greater or equal
-print("0== 0 or 2 != 3",0== 0 or 2 != 3)  #the not equal to operator
-print()
-print("0  == 0 or True)",0  == 0 or True)#2 <>3)   #the not equal to operator
+# exit()
+# print()
+# print("# # Booleans  and comparision")
+# print()
 
-print()
+# print("2==3",2 == 3)           #equal.......... not assign
+# print("2 > 3 and 2<2",2 > 3 and 2<2)    #and 
+# print("2 > 3 and 2==2",2 > 3 and 2==2)   #lessthan ..... greaterthan ......comparative
+# print("2 == 3 or 2>=2",2 == 3 or 2>=2)   #greater or equal
+# print("0== 0 or 2 != 3",0== 0 or 2 != 3)  #the not equal to operator
+# print()
+# print("0  == 0 or True)",0  == 0 or True)#2 <>3)   #the not equal to operator
+# print()
+# # oeprator
+# a=b=c=2
+# print(a==b==c)
+# print()
+# #send to string operation
+# x="slooealrn"
 
-print("alphabetical order of their component letters")
-print("ord('a')",ord('a'))
-print("ord('b')",ord('b'))
-print("'a' > 'b'",'a' > 'b')
+# y=x[:]
+# print(id(x)==id(y))
 
-print("\"Bob\" > \"Dave\"","Bob" > "Dave")
+# print()
 
-print()
-print()
+# print("alphabetical order of their component letters")
+# print("ord('a')",ord('a'))
+# print("ord('b')",ord('b'))
+# print("'a' > 'b'",'a' > 'b')
 
-x = (7 > 5)
-print("int(7 > 5)",int(x))
-print("int not(7 > 5)",int(not x))
-print()
-print("joining by converting each string to ord of \"hello world\"")
-s = "hello world"
-print(''.join(str(ord(c)) for c in s))
+# print("\"Bob\" > \"Dave\"","Bob" > "Dave")
 
-print()
+# print()
+# print()
 
-print("#if statement")
-print()
+# x = (7 > 5)
+# print("int(7 > 5)",int(x))
+# print("int not(7 > 5)",int(not x))
+# print()
+# print("joining by converting each string to ord of \"hello world\"")
+# s = "hello world"
+# print(''.join(str(ord(c)) for c in s))
 
-print("if #condition:")
-print("   #statements    ")
+# print()
 
-x = 42
-if x > 5:
-    print("x is greater than 5")
+# print("#if statement")
+# print()
 
+# print("if #condition:")
+# print("   #statements    ")
 
-print()
-
-print(" else statment")
-print()
-
-x = 4
-if x == 5:
-    print("Yes")
-else:
-    print("No")
-
-print()   
-print("# Boolean Logic")
-print()   
-
-print(3.0==3) 
-print(0.0==0) 
-print("#and")
-print("1 == 1 and 2 == 2",1 == 1 and 2 == 2)
-print("1 == 1 and 2 == 3",1 == 1 and 2 == 3)
-print("1 != 1 and 2 == 2",1 != 1 and 2 == 2)
-print("2 < 1 and 3 > 6",2 < 1 and 3 > 6)
-print()
-print("#or")
-print( "1 == 1 or 2 == 2",1 == 1 or 2 == 2)
-print( "1 == 1 or 2 == 3 ",1 == 1 or 2 == 3 )
-print( "1 != 1 or 2 == 2 ",1 != 1 or 2 == 2 )
-print( "2 < 1  or 3 > 6 ",2 < 1  or 3 > 6 )
-print()
-print(" Boolean Not")
-
-print("not 1 == 1",not 1 == 1)
-
-print()
-print(" Boolean Operator preccedance      NOT > XOR > AND > OR    derived from C")
-print(not True and True)
-print("2>3 and 4<2 or 3>3 and 2>3 or not(3>3)",2>3 and 4<2 or 3>3 and 2>3 or not(3>3))
-print()
+# x = 42
+# if x > 5:
+    # print("x is greater than 5")
 
 
-print("# while loops")
+# print()
 
-print()
+# print(" else statment")
+# print()
 
-print("#Loops")
-
-
-i = 1
-while i <=5:
-   print(i)
-   i = i + 1
-
-print("Finished!")
-
-print()
-
-print("cummulative finder")
-sum = 0
-x = 10
-while x > 0:
-  sum += x
-  x -= 1
-
-print(sum)
-
-# other possilble way
-print()
-i=0
-for x in range(8):
-    if x%2==0:
-        # print(x)
-        i+=x
-     # i+=1   
-
-print(i)
+# x = 4
+# if x == 5:
+    # print("Yes")
+# else:
+    # print("No")
 
 
 
+# print()   
 
-print()
-# import itertools as it
-# for i in it.count(1):
-    # if(100-i==0):
+
+# a=8
+# b=6
+# c=a%b
+
+# # print(c)
+
+# d=int(a/c)
+
+
+# if d==25//b:
+    # print(str(d)+str(c))
+    
+# else:
+    # print("dc")
+
+# print("# Boolean Logic")
+# print()   
+
+# print(3.0==3) 
+# print(0.0==0) 
+# print("#and")
+# print("1 == 1 and 2 == 2",1 == 1 and 2 == 2)
+# print("1 == 1 and 2 == 3",1 == 1 and 2 == 3)
+# print("1 != 1 and 2 == 2",1 != 1 and 2 == 2)
+# print("2 < 1 and 3 > 6",2 < 1 and 3 > 6)
+# print()
+# print("#or")
+# print( "1 == 1 or 2 == 2",1 == 1 or 2 == 2)
+# print( "1 == 1 or 2 == 3 ",1 == 1 or 2 == 3 )
+# print( "1 != 1 or 2 == 2 ",1 != 1 or 2 == 2 )
+# print( "2 < 1  or 3 > 6 ",2 < 1  or 3 > 6 )
+# print()
+# print(" Boolean Not")
+
+# print("not 1 == 1",not 1 == 1)
+
+# print()
+# print(" Boolean Operator preccedance      NOT > XOR > AND > OR    derived from C")
+# print(not True and True)
+# print("2>3 and 4<2 or 3>3 and 2>3 or not(3>3)",2>3 and 4<2 or 3>3 and 2>3 or not(3>3))
+# print()
+# # logical operator
+# print('p' == 'p',[]is[])
+# print('p' == 'p',[]is[])
+# # print([]is[])
+
+
+# print()
+
+# print("# while loops")
+
+# print()
+
+# # loop
+# count=0
+# while(count<5):
+    # print(count)
+    # if(count>1):
+        # count+=1
         # break
+    # else:
+        # count+=1
+        
+
+
+# x=1
+# while (x<=5):
+    # x+=x #x=x+x
+    
+# print(x)
+
+
+
+
+
+# print("#Loops")
+
+
+# i = 1
+# while i <=5:
+   # print(i)
+   # i = i + 1
+
+# print("Finished!")
+
+# print()
+
+# print("cummulative finder")
+# sum = 0
+# x = 10
+# while x > 0:
+  # sum += x
+  # x -= 1
+
+# print(sum)
+
+
+# print()
+# for i in range(5):
+    # i=i+i
+    
+# print(i)
+
+# # other possilble way
+# print()
+# i=0
+# for x in range(8):
+    # if x%2==0:
+        # # print(x)
+        # i+=x
+     # # i+=1   
+
+# print(i)
+
+# num = int(input())
+# # def printValues():
+# l = list()
+# for i in range(0,21):
+    # l.append(i**2)
+
+# for i in l[:num]:
     # print(i)
 
-
-func=lambda x:x%2==0
-abc=list(filter(func,range(8)))
-print(sum(abc))
+# # print(l[-num:])
 
 
-print()
-x = 1
-while x < 10:
-  if x%2 == 0:
-    print(str(x) + " is even")
-  else:
-    print(str(x) + " is odd")
 
-  x += 1
+# print()
+# # import itertools as it
+# # for i in it.count(1):
+    # # if(100-i==0):
+        # # break
+    # # print(i)
 
-print()
 
-print(" # break continue")
-print()
+# func=lambda x:x%2==0
+# abc=list(filter(func,range(8)))
+# print(sum(abc))
 
-print("break statment")
-i = 0
-while True:
-  print(i)
-  i = i + 1
+
+# print()
+# x = 1
+# while x < 10:
+  # if x%2 == 0:
+    # print(str(x) + " is even")
+  # else:
+    # print(str(x) + " is odd")
+
+  # x += 1
+
+# print()
+
+# print(" # break continue")
+# print()
+
+# print("break statment")
+# i = 0
+# while True:
+  # print(i)
+  # i = i + 1
   
-  if i >= 5:
-    print("Breaking")
-    break
+  # if i >= 5:
+    # print("Breaking")
+    # break
 
-print("Finished")
-print()
-print("continue statment")
+# print("Finished")
+# print()
+# print("continue statment")
 
-i = 0
-while i<5:
-  i += 1
-  if i==3:
-    print("Skipping 3")
-    continue
-  print(i)
+# i = 0
+# while i<5:
+  # i += 1
+  # if i==3:
+    # print("Skipping 3")
+    # continue
+  # print(i)
 
-print()
-
-
-
-for i in range(10):
-    # print(i)
-    if i%2==0:
-        continue
-        print(i)
-    else:
-        pass
-        print(i)
+# print()
 
 
-print()
 
-print(" Now this could be considered perfect:  # ticket issue ")
-print(" While loop exit problem.... help .. for calculator .. a sorth.. tinkitner")
+# for i in range(10):
+    # # print(i)
+    # if i%2==0:
+        # continue
+        # print(i)
+    # else:
+        # pass
+        # print(i)
 
-i = 1
-ticket_cost = 100 
-total = 0 
+
+# print()
+
+# print(" Now this could be considered perfect:  # ticket issue ")
+# print(" While loop exit problem.... help .. for calculator .. a sorth.. tinkitner")
+
+# i = 1
+# ticket_cost = 100 
+# total = 0 
 
 
-print("input 5  numbers")
-while i<=5: 
-    age = int(input()) 
-    if age < 3: 
-        i += 1
-        continue 
-    # break 
-    else: 
-        total += ticket_cost 
-        #print("$" + str(total)) 
-        i += 1
-print(total) 
+# print("input 5  numbers")
+# while i<=5: 
+    # age = int(input()) 
+    # if age < 3: 
+        # i += 1
+        # continue 
+    # # break 
+    # else: 
+        # total += ticket_cost 
+        # #print("$" + str(total)) 
+        # i += 1
+# print(total) 
 
 
 exit()
@@ -1166,21 +1251,148 @@ print(id(mylist)==n)
 
 
 
+a=[8,0,4,6,1]
+print(a == a[:])
+print(a is a[:])
+# print('a'is 'b')
+if(a is a[:]):
+    print(True)
+else:
+    print(False)
+    
+
+
+
+num=5
+my_list=[0,1,5,4]
+
+print(my_list[:-1])
+print(my_list[:-2])
+exit()
+print(my_list if num > 7 else my_list[:-2])
+
+
+
+
+print(list(range(0,5)))
+print(list(range(5)))
+x="hello!"
+for i in range(0,len(x)-1):
+    print((x[i]))
+
+
+
+List=[]
+List.append(1)
+List.extend(2)
+print(List)
+
+
+exit()
+a=[1]
+a*=2
+print(a)
+a[0]=3
+print(sum(a))
+
+
+# list
+l1=[1,2,3,4] 
+l2=list(map(lambda x:x+2 if x>2 else x-2,l1))
+print(l2)
+
+k=[[1,2,3,4,5,6]]
+k.append(7)
+k.insert(1,8)
+print(k)
+print(len(k))
+
+exit()
+print(sum(list(range(0,4)))) #
+my_list=[i for i in range(8)]
+for i in my_list:
+    my_list.remove(i)
+print(sum(my_list))
+
+
+print(list(range(4,7,2)))
+print()
+
+my_list=["car","plane","train","bike","rocket"]
+newlist=sorted(my_list)
+print(newlist)
+print(newlist[-1])
+newlist=sorted(my_list,key=lambda x:x[-2])
+print(newlist)
+
+exit()
+
+
+# list
+x='abcde'
+y=x[-1:]
+print(y)
+print(len(y))
+#list
+a=[1,2,3]
+b=[4,5]
+a.append(b)
+a.extend(b)
+
+print(a)
+
+#list 
+l=['a','b','c']
+print('d'.join(l))
+exit()
+
 
 exit()
 
 
 
+L=[[]]*3
+print(L)
+L[0]+=[[]]
+print(L)
+print(L[0]==L[1])
+print(L[0]is L[1])
+print(len(L[0])==bool(L[0]))
+
+
+nums={1,2,3,4,5,6}
+nums={0,1,2,3}&nums
+nums=filter(lambda x:x>1, nums)
+print(len(list(nums)))
 
 
 
+exit()
+
+#List
+a=[1,2,3,4,6,7,8]
+b=a[:4]
+b.append(5)
+
+print(b)
+
+print()
+
+lar_num=0
+print(list(range(0,10,3)))
+exit()
+for i in range(0,10,3):
+    if lar_num>=6:
+        break
+    if i > lar_num:
+        lar_num=i%2
+print(lar_num)
 
 
+exit()
 
 
-
-
-
+exit()
 
 
 print("Intro_python_______________ Functions________________________________")
@@ -1480,6 +1692,58 @@ import numpy as np
 a = np.array([[1,2,3],[0,1,4]])
 print(a.size)
 
+def f(s1,s2,s3):
+    return (int(s1)+int(s2))*str(s3)
+    
+print(f("1","3",3))
+
+
+# def printValues():
+	# l = list()
+	# for i in range(1,21):
+		# l.append(i**2)
+	# print(l[:5])
+	# print(l[-5:])
+
+# printValues()
+
+ 
+# functions
+def evens(max):
+    v=0
+    while v<=max:
+        # return v
+        yield v
+        v+=2
+evens(2)
+
+
+
+def my_code():
+    return 0
+    print(4)
+    
+print(my_code())
+
+y=[]
+def loop(x):
+    for i in x:
+        try:
+            y.append(int(i))
+        except:
+            pass
+        return y 
+print(loop([1.0,"1.0",y,abs(5j+1)]))
+
+
+def fs(ls,fil):
+    f=lambda x:not any(p in x for p in fil)
+    return list(filter(f,lst))
+f=['$','%']
+lst=['$dollar','@at','%modulu']
+print(fs(lst,f))
+
+
 
 
 exit()
@@ -1526,6 +1790,13 @@ print("Inter_Python_____________Dictonary// ___________________")
 # print(None==None)
 
 
+my_dict={"Bill":"Gates","Steve":"Jobs"}
+L=[]
+for i,j in my_dict.items():
+    L.append(i)
+    L.append(j)
+print(len(L))
+print(L)
 
 
 
@@ -1575,10 +1846,19 @@ print("Inter_Python_____________Tuples// ___________________")
 
 
 
+# tuple .. list
+ans=(1,2,3,4)[1]
+print(ans)
+
+
+
+
 print("Inter_python _______________ sets_________________")
 
 
 
+nums=set([1,1,2,3,3,4])
+print(len(nums))
 
 
 
@@ -1592,6 +1872,44 @@ print("Inter_python _______________ sets_________________")
 # print(mylist)
 
 
+
+
+
+
+exit()
+print("__exception")
+
+from math import sqrt as math
+try:
+    print(math(4))
+except TypeError:
+    print("TypeError occured")
+except:
+    print("An error occured")
+
+
+#error handling..exception
+try:
+    str="Python"
+    int=42
+    print(int//str)
+except TypeError:
+    int=12
+finally:
+    print(int+8)
+
+
+# try:
+    # if("hello world"/0==1):
+        # print(0)
+    # except ZeroDivisionError:
+        # print(1)
+    # except SyntaxError:
+        # print(2)
+    # except TypeError:
+        # print(3)
+    # finally:    
+        # print(9)
 
 
 
@@ -1613,9 +1931,69 @@ a=myclass()
 print(b.n)
 
 
+class spam:
+    __egg=7
+    def print_egg(self):
+        print(self.__egg)
+s=spam()
+print(s.__egg)
 
 
 
+#os.close(f) # close the descritor f
+
+class myclass:
+    def __iter__(self):
+        self.x=1
+        return obj
+    def __next__(self):
+        y=self.x
+        self.x+=1
+        return y
+obj=myclass()
+it=iter(obj)
+print(next(it))
+print(next(it))
+    
+
+
+
+#send to class object orinted prorgramming.. 
+class Class:
+    n=3
+    def __init__(self,n):
+        self.n=n%2
+a=Class(5)
+
+print(a.n)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# code coach
+
+
+
+
+class tower():
+    def __init__(self,x=100):
+        self.hp=x
+A=tower()
+B=tower(90)
+C=tower()
+print(A.hp+B.hp-C.hp)
 
 
 
