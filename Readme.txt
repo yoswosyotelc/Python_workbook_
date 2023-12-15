@@ -1,6 +1,9 @@
-@#$!@#$@!#$upwork### << ///Oct_2023..??>> @ @#$@%#!@%!Saving??@!#$@!#$@!#$!@#$@!#$
+@#$!@#$@!#$Progress### << ///Dec_2023..??>> @ @#$@%#!@%!Saving??@!#$@!#$@!#$!@#$@!#$
 !!!!! don't stay at one part for more than 1 weekds...!!!!
 !!!!! proceed as you go through by commenting .. for furhter refirinement..
+//..//...//..//...//..//..//..//...//
+C:\Users\Yos\AppData\Local\Programs\Python\Python312
+//..//...//..//...//..//..//..//...//
 
 
 winget commands #	https://winget.run/ 	
