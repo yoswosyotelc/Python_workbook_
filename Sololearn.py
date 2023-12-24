@@ -2,15 +2,19 @@
 # !!!!! don't stay at one part for more than 1 weekds...!!!!
 # !!!!! proceed as you go through by commenting .. for furhter refirinement..
 # //..//...//..//...//..//..//..//...//
-# C:\Users\User\AppData\Local\Programs\Python\Python311
+# C:\Users\User\AppData\Local\Programs\Python\Python312
 # //..//...//..//...//..//..//..//...//
-#codecoach.. challenges..??
-# exit()
 
+#codecoach.. challenges..??
+
+
+
+exit()
 
 
 print("#Intro_python_______________ Introduction to Python____________________________")
 
+'''
 # print(7//2) # floor quoteent
 # print(13%2) # modular operator remainder
 # print("Welcome to the Code Playground")            #https://peps.python.org/pep-0008/
@@ -18,10 +22,11 @@ print("#Intro_python_______________ Introduction to Python______________________
 # print("this is one");print("this is again")
 # exit()
 
+'''
 
-# print("#Intro_python_______________ Getting Started with Python__________________________")
+print("#Intro_python_______________ Getting Started with Python__________________________")
 
-
+'''
 #print("#working with Numberical data")
 #6.17. Operator precedence  #https://docs.python.org/3/reference/expressions.html
 # print(6/2*3**2)
@@ -134,11 +139,30 @@ print("#Intro_python_______________ Introduction to Python______________________
 
 
 # exit()
+# from math import sqrt as sty
+# print(sqrt(4))
+# print(sty(4))
+
+# name="palul"
+# print("his {0} is ".format(name))
+
+# exit()
+
+
+# name = "palul"
+# print("his {0} is".format(name))
+
+# name = "palul"
+# print(f"his {name} is")
+
+
+'''
 
 
 
 print("#Intro_python_______________ Interacting with the User__________________________")
 
+'''
 #print("# taking user Input")
 # hey=input()
 # print(hey,"<<< this is string don't forget that")
@@ -211,9 +235,15 @@ print("#Intro_python_______________ Interacting with the User___________________
 # exit()
 
 
+'''
+
+# print(5**5%5+9*9)
+# rint=5**5
+# print(rint%5+9*9)
 
 print("#Intro_python_______________ Control Flow_________________________")
 
+'''
 # exit()
 # print()
 # print("# # Booleans  and comparision")
@@ -501,12 +531,41 @@ print("#Intro_python_______________ Control Flow_________________________")
 # print(total) 
 
 
+
+# val=3
+# print(val is None)
+
+
+# a='abcd'
+# b='defg'
+# c=''
+# for i in a:
+    # if i not in b:
+        # c+=i
+# print(c)
+
+# a=0 or 1
+# print(a)
+# b=0 or 2
+# print(b)
+
+
 exit()
+'''
+
+# c=a or b
+# print(a+b+c)
+
+
+# print(1 or 2)
+# print(1 or 0 and 2)
+# print(0 and 2)
+
 
 
 print("#Intro_python_______________ Lists______________________________")
 
-
+'''
 # exit()
 
 # words = ["Hello", "world", "!"]
@@ -1050,12 +1109,6 @@ print("#Intro_python_______________ Lists______________________________")
 
 
 
-
-
-
-
-
-
 # # Python | Generate random numbers within a given range and store in a list
 
 # import random
@@ -1391,11 +1444,62 @@ print(lar_num)
 
 exit()
 
+# r=['red','orange','yellow','green','blue','indigor']
+# p=[c[0] for c in r if len(c)<6]
+# print('_'.join(p))
 
-exit()
+
+# arr=[0,1,2,3,4,5]
+# ##r=[#,1,#,3,#,5]
+# n=0
+# for _ in arr:
+    # print(_)  # refers from arr
+    # # del arr[n] # method is only to delete okay
+    # # print(arr[n])
+    # n+=1
+    # # print(n)
+    # del arr[n]  # method is only to delete okay
+    # print("loop")
+    # # del arr[n] # method is only to delete okay
+
+# a=[2,4,5]
+# print(list(range(1,3)))
+
+# for i in range(1,3):
+    # print(i)
+    # a[i]=a[i-1] #[1,1]..[2,2]
+    # print(a[i],end='')
+    # print(i)
+
+
+# a=[2,1,2,4]
+# a[1:].remove(2)
+# print(sum(a))
+
+'''
+
+
+# A=[1,2,3,4,5,6,7]
+# G=iter(A)
+# next(G)
+# for num in G:
+    # print(num)
+    # next(G)
+    # next(G)
+
 
 
 print("Intro_python_______________ Functions________________________________")
+
+'''
+def sum(a,b):   
+    if a==0 or b==0:
+        return 0    #exit
+    return 1+sum(a-1,b-1) #3,1..1>>2,0..0
+    # 1+1+1...
+print(sum(23,2))
+
+
 
 
 
@@ -1743,6 +1847,40 @@ f=['$','%']
 lst=['$dollar','@at','%modulu']
 print(fs(lst,f))
 
+# a=([{}])
+# a=([])
+# print(len(a))
+# # print(a[0])
+# exit()
+# def fun (arr):
+    # if len(arr)>0:
+        # return 1+fun(arr[0])
+    # return 1
+# print(fun(a))
+
+
+# def fun():
+    # for x in range(10,0,-1):
+        # yield(x)
+# x=fun()
+
+# for a in range(6):
+    # next(x)
+
+# print(next(x))
+
+# def func_a(a,b,c):
+    # a+=b
+    # b=a*c
+    # print(b)
+# a=10
+# b=15
+# c=5.0
+# func_a(a,b,c) #
+
+
+
+'''
 
 
 
@@ -1750,7 +1888,7 @@ exit()
 
 print("Inter_Python_____________Dictonary// ___________________")
 
-
+'''
 # #tuples inside function..
 
 # def calc(x):
@@ -1800,9 +1938,50 @@ print(L)
 
 
 
+# my_dict={"bill":"Gates","steve":"jobs"}
+# L=[]
+# # print(my_dict.items()) # .items().. dictionary.. 
+# # my_dict.append("rich_gy") # . you can' t apend in dictionary
+
+# for i,j in my_dict.items():
+    # L.append(i)
+    # print(L)
+    # L.append(j)
+    # print(L)
+# # print(len(L))
+
+
+
+# # method -1 append to list ...coloraly to deicitonary
+# my_dict = {'key1': 'value1', 'key2': 'value2'}
+# # Adding a new key-value pair
+# my_dict['key3'] = 'value3'
+# print(my_dict)
+
+# # method -2 append to list ...coloraly to deicitonary
+# my_dict = {'key1': 'value1', 'key2': 'value2'}
+# # Adding/Updating multiple key-value pairs
+# my_dict.update({'key3': 'value3', 'key4': 'value4'})
+
+# print(my_dict)
+
+# # method -3 append to list ...coloraly to deicitonary
+# my_dict = {'key1': 'value1', 'key2': 'value2'}
+# # Adding/Updating multiple key-value pairs
+# my_dict.update({'key3': 'value3', 'key4': 'value4'})
+# print(my_dict)
+
+
+
+
+'''
+
+
+
 
 print("Inter_Python_____________Tuples// ___________________")
 
+'''
 # # to convert list to dictoinary..
 # contacts = [
     # ('James', 42),
@@ -1851,11 +2030,38 @@ ans=(1,2,3,4)[1]
 print(ans)
 
 
+# becha tupples are immitible lets see them in more lively projects 
+# # okay that is the onlyw ay to udnertstand them..
+
+# gh=(1,2,3,4)
+# print(gh)
+# # gh(0)=12  # since tuples are immutabligty .. here 
+# print(gh[0])
+# gh=(12,2,3,4)
+# print(gh)
+
+
+# Lh=[1,2,3,4]
+# print(Lh)
+# Lh[0]=4
+# print(Lh)
+
+# spam={i:i%3+i for i in range(1,11)}
+# print(spam)
+# print(spam[2])
+# print(spam[4])
+# print(spam[spam[2]])
+
+
+'''
+
+
+
 
 
 print("Inter_python _______________ sets_________________")
 
-
+'''
 
 nums=set([1,1,2,3,3,4])
 print(len(nums))
@@ -1970,22 +2176,11 @@ print(a.n)
 
 
 
+'''
 
+print("Inter_python ___________________ class______________________________")
 
-
-
-
-
-
-
-
-
-
-
-# code coach
-
-
-
+'''
 
 class tower():
     def __init__(self,x=100):
@@ -1999,16 +2194,32 @@ print(A.hp+B.hp-C.hp)
 
 
 
+# def tripler(org_func):
+    # def my_function(orig_val):
+        # return(org_func(orig_val)*3)
+    # return(my_function)
+
+# @tripler
+# def doubler(user_input):
+    # return(user_input*2)
+# print(doubler(5))
+
+'''
 
 
 
+print("Inter_python ___________________ regular expression______________________________")
 
+'''
 
+# import re
+# w="coder"
+# if re.match(w,"code"):
+    # print("a")
+# else:
+    # print("b")
 
-
-
-
-
+'''
 
 
 
