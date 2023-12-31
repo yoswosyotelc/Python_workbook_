@@ -9,6 +9,256 @@
 
 
 
+
+
+
+exit()
+class foo:
+    def bar(self):
+        pass
+
+print(foo.bar.__name__)
+exit()
+
+
+
+x=0b0010
+print(x)
+exit()
+
+a=[1,2,3,5,8,13]
+print(a[2:2])
+exit()
+
+
+arr=[1,0,1,0]
+a=all(arr)
+s=sum(arr)
+if a or s:
+    print(a or s)
+else:
+    pass
+exit()
+
+
+squares=[0,1,4,8,16]
+quaras=squares
+squares[3]=0
+print(quaras)
+exit()
+
+
+nums=[11,22,33,44,55]
+res=list(filter(lambda x:not(x%2==0),nums))
+print(res)
+exit()
+
+
+print((1j**2).real)
+exit()
+
+
+a=["c","b","a"]
+a=a[::-1]
+print(a[1])
+exit()
+
+
+arr=[0,1,1,0]
+for val in arr:
+    if val==0:
+        arr[val]=1
+print(arr)
+exit()
+
+
+num1=[1,3,4,5]
+num2=num1
+num2[0]=5
+print(num1[0])
+exit()
+
+
+a=("la")
+b=("g")
+c=a+"o"+b
+print(c[::-1])
+exit()
+
+
+mylist=[1,2,3,4,5,6]
+print(mylist[2:5])
+mylist[2:5]=[]
+print(mylist)
+print(len(mylist))
+exit()
+
+
+print("sololearn"[:1])
+exit()
+
+
+a=chr(65)
+b=ord("a") 
+print(a==chr(b))
+exit()
+
+
+import re
+pattern = r"[\d]+"
+x=re.search(pattern,"good luck in 2017!")
+y=x.group()
+print(int(y)%100+3)
+exit()
+
+
+a=[1,2,3]
+b=[4,5]
+a.append(b)
+a.extend(b)
+print(a)
+exit()
+
+
+import random
+print(random.randint(1,20))
+exit()
+
+
+a,b,*c=[x for x in range(0,12,3)]
+print(*c)
+exit()
+
+
+import numpy as np
+a = np.arange(0, 8, 2)
+b = np.arange(1, 8, 3)
+print(a[2] == b[1])
+exit()
+
+
+from functools import reduce
+mul = lambda n1, n2: n1 * n2
+class cls:
+    def __enter__(self):
+        # Return a function that calculates factorial
+        def f(n):
+            return reduce(mul, range(2, n + 1), 1)
+        return f  # Return the factorial function
+
+    def __exit__(self, *args):
+        pass
+
+with cls() as a:
+    print(a(5))  # Call the returned function a(5) to calculate factorial
+
+exit()
+
+
+str1="5"
+str2="6"
+print(str1<str2)
+exit()
+
+
+print(7*(3+4-2)//5)
+exit()
+
+
+A=[8,0,-4,-6,1]
+for n in A:
+    if n<0:
+        A.append(abs(n))
+    x=n
+print(x)    
+exit()
+
+
+strList=['1','2','3','4','a']
+intList=[]
+for i in strList:
+    try:
+        intList.append(int(i))
+    except ValueError:
+        intList=['something not int']
+    finally:
+        inList=[]
+print(str(len(intList)))
+exit()
+
+
+import time
+print(time.sleep(1))    ## used for threading
+exit()
+
+
+arr=[4,3,2][1]
+print(arr)
+exit()
+
+
+print(abs(3+4j))
+exit()
+
+
+import numpy as np
+arr1=np.array([[1,2,3],[4,5,6]])
+arr1=arr1.transpose();
+print(arr1[1][0]);
+exit()
+
+
+class A:
+    @staticmethod
+    def sample(self):
+        print("static method")
+    @classmethod
+    def sample(self):
+        print("class method")
+A.sample()
+exit()
+
+
+class J(str):
+    def __init__(self, j):
+        self.j=j
+    def __add__(self,other):
+        self.j+other.j
+x=J(5)
+y=J(7)
+print(x+y)
+exit()
+
+
+def f(q,mylist=[]):
+    mylist=mylist+q
+    return mylist
+a=[1]
+print(f(a))
+a=[2]
+print(f(a))
+exit()
+
+
+a={0:1,1:2}
+_sum=0
+for b in a: _sum+=b-1    
+print(_sum + b) 
+exit()
+
+
+a={1:'a',2:'b'}
+b={2:'c',3:'d'}
+c={**a,**b}
+print(c[2])
+exit()
+
+
+
+def a(x):
+    return(x*7//5*10%4)
+nums=[2,4,8,3,1]
+print(a(nums[3]))
 exit()
 
 
@@ -158,7 +408,7 @@ print("#Intro_python_______________ Getting Started with Python_________________
 
 '''
 
-
+# print(len(str(8/2**2**2)))
 
 print("#Intro_python_______________ Interacting with the User__________________________")
 
@@ -232,14 +482,24 @@ print("#Intro_python_______________ Interacting with the User___________________
 
 
 
+
+# print(5**5%5+9*9)
+# rint=5**5
+# print(rint%5+9*9)
+
+# if 2&0:
+    # print("yes")
+# else:
+    # print("No")
+
+
+
+
 # exit()
 
 
 '''
 
-# print(5**5%5+9*9)
-# rint=5**5
-# print(rint%5+9*9)
 
 print("#Intro_python_______________ Control Flow_________________________")
 
@@ -550,8 +810,6 @@ print("#Intro_python_______________ Control Flow_________________________")
 # print(b)
 
 
-exit()
-'''
 
 # c=a or b
 # print(a+b+c)
@@ -562,6 +820,26 @@ exit()
 # print(0 and 2)
 
 
+# x = 10
+# y = 20
+# expression = 'x + y'  # This is a string representing a Python expression
+
+# result = eval(expression)  # Evaluating the expression using eval()
+
+# print(result)  # Output will be 30 (since x + y = 10 + 20)
+
+
+
+
+
+exit()
+'''
+
+# i=1
+# while i<=10:
+    # print(i+1)
+    # i*=2
+    
 
 print("#Intro_python_______________ Lists______________________________")
 
@@ -1476,8 +1754,6 @@ exit()
 # a[1:].remove(2)
 # print(sum(a))
 
-'''
-
 
 # A=[1,2,3,4,5,6,7]
 # G=iter(A)
@@ -1487,9 +1763,75 @@ exit()
     # next(G)
     # next(G)
 
+# a=[1,2,3]
+# b=a
+# b.append(3)
+# print(b[3]==a[-1])
+
+# print({1,2,3}is{1,2,3})
+# print({1,2,3}=={1,2,3})
+
+# L=[[]]*3
+# # print(L)
+# print(L[0]==L[1])
+# print(L[0] is L[1])
+# print(len(L[0])==bool(L[0]))
+
+# # arr=[2,1,"a",3]
+# arr=["b","a"]
+# arrL=[2,1,2,3]
+# arrL.sort()
+# arr.sort()
+# print(arrL) #with letter and nubmer mixed up..it gifes error
+# print(arr)
 
 
-print("Intro_python_______________ Functions________________________________")
+
+# my_list=[1,5,1,0,1,9,9,5]
+# new_list=my_list[-1:-4:-1]#[-1::-1] #for start.. then undrestand
+# print(new_list)
+
+# print(list[::-1]) #one way of doing reversing
+# print(list(reversed(list(range(5)))))
+# print([i for i in list(range(5))])
+
+# print(bool([])+1)
+
+
+# s=list(reversed(list("hewer")))
+# print(s)
+
+
+
+# s=reversed("sdfd")
+# print(s) # address of object s..
+
+
+# print(''.join(list(reversed(list("sdfsd")))))
+
+
+# x="abc"
+# x=list(x)
+# x.insert(1,"d")
+# x=''.join(x)
+# x=x[2:0:-1]
+# print(x)
+
+
+
+# a=[1,2,3]
+# del(a[0])
+# # print(del(a[0]))
+# print(a)
+# print(len(a[1:]))
+
+
+
+'''
+
+
+
+print("Intro_python_______________ Functions__________________________")
 
 '''
 def sum(a,b):   
@@ -1880,11 +2222,41 @@ print(fs(lst,f))
 
 
 
-'''
 
+
+
+# def f(r):
+    # j=range(r)
+    # e=eval("*".join([str(i+1)for i in j]))
+    # return e
+
+# print(f(5))
+
+
+# def search(a,b,*c):
+    # length=len(c)
+    # if length is not None:
+        # print("The variable C holds {} items".format(length))
+# search(1,2,3,4,5,6,7,8,9,10)
+
+
+# k=0
+# var="abcb"
+# for i in var:
+    # print(i,k)
+    # k+=1
+    
+# def counts(var):
+    # for i in var:
+        # if var.count(i)>1:
+            # return i
+            # break
+
+# print(counts(var))
 
 
 exit()
+'''
 
 print("Inter_Python_____________Dictonary// ___________________")
 
@@ -1977,6 +2349,12 @@ print(L)
 '''
 
 
+# a={1:[1,2,3]}
+# b=a.copy()
+# a[1].append(4)
+# print(a)
+# print(a==b)
+
 
 
 print("Inter_Python_____________Tuples// ___________________")
@@ -2053,13 +2431,18 @@ print(ans)
 # print(spam[spam[2]])
 
 
+# print(type(1,))
+# print(type((1,2)))
+
 '''
 
 
+# paris=[(x,x**2)for x in range(1,5)]
+# print(paris)
+# print(paris[2][1])
 
 
-
-print("Inter_python _______________ sets_________________")
+print("Inter_python _______________ Sets //________________________")
 
 '''
 
@@ -2178,7 +2561,64 @@ print(a.n)
 
 '''
 
-print("Inter_python ___________________ class______________________________")
+# set={1,3,5,6,8,8,3,2}
+# print(len(set))   # repetation is not allowed.. 
+# print(len(set)+int("3"))
+
+
+print("Inter_python ___________________ Functional Programming______________________________")
+
+
+'''
+
+# import re
+# w="coder"
+# if re.match(w,"code"):
+    # print("a")
+# else:
+    # print("b")
+    
+    
+
+
+# def square_numbers(n):
+    # for i in range(n):
+        # yield i ** 2
+
+# # Using the generator to iterate over the sequence of squared numbers
+# my_generator = square_numbers(5)
+
+# for num in my_generator:
+    # print(num)
+
+
+
+# import itertools as it
+# for i in it.count(1):
+    # if (100-i==0):
+        # break
+    # print(i)
+
+
+# A=[1,2,3,4,5,6,7]
+# G=iter(A)
+# next(G)
+# for num in G:
+    # print(num)
+    # next(G)
+    # next(G)
+
+
+
+'''
+
+
+
+print("Inter_python ___________________ OOP ___________________________________")
+
+
+
+print("Inter_python ___________________ class__________________________________")
 
 '''
 
@@ -2204,22 +2644,59 @@ print(A.hp+B.hp-C.hp)
     # return(user_input*2)
 # print(doubler(5))
 
+
+# class A:
+    # def __init___(self,value):
+        # self.a=value
+# class B(A):
+    # def __init__(self,value=2):
+        # super().__init__()
+# ab=B(8)
+# print(ab)
+# # print(ab.a)
+
+
+# class vec:
+    # def __init__(self,x,y):
+        # self.x=x
+        # self.y=y
+    # def __add__(self,other):
+        # return vec(self.x+ other.x,self.y+other.y)
+# v1=vec(3,4)
+# v2=vec(1,2)
+# r=v1+v2
+# print(r.x)
+# print(r.y)
+# print(r.x*r.y)
+
+
 '''
 
 
 
-print("Inter_python ___________________ regular expression______________________________")
+print("Inter_python ___________________ Exception______________________________")
+
+'''
+# a=[4,5,6,7]
+# try:
+    # print(a[True])
+# except:
+    # print(0)
+
 
 '''
 
-# import re
-# w="coder"
-# if re.match(w,"code"):
-    # print("a")
-# else:
-    # print("b")
+
+print("Inter_python ___________________ Working with File______________________________")
 
 '''
+
+
+'''
+
+
+
+
 
 
 
