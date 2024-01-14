@@ -1,265 +1,21 @@
-# @#$!@#$@!#$Progress### << ///Dec_2023..??>> @ @#$@%#!@%!Saving??@!#$@!#$@!#$!@#$@!#$
+# @#$!@#$@!#$Progress### << ///Jan_2023..??>> @ @#$@%#!@%!Saving??@!#$@!#$@!#$!@#$@!#$
 # !!!!! don't stay at one part for more than 1 weekds...!!!!
 # !!!!! proceed as you go through by commenting .. for furhter refirinement..
 # //..//...//..//...//..//..//..//...//
-# C:\Users\User\AppData\Local\Programs\Python\Python312
+# //..//..Code explanation.//..use...//.ChatGPT.//..//..//...//
 # //..//...//..//...//..//..//..//...//
 
-#codecoach.. challenges..??
 
-
-
-
-
-
-exit()
-class foo:
-    def bar(self):
-        pass
-
-print(foo.bar.__name__)
-exit()
-
-
-
-x=0b0010
-print(x)
-exit()
-
-a=[1,2,3,5,8,13]
-print(a[2:2])
-exit()
-
-
-arr=[1,0,1,0]
-a=all(arr)
-s=sum(arr)
-if a or s:
-    print(a or s)
-else:
-    pass
-exit()
-
-
-squares=[0,1,4,8,16]
-quaras=squares
-squares[3]=0
-print(quaras)
-exit()
-
-
-nums=[11,22,33,44,55]
-res=list(filter(lambda x:not(x%2==0),nums))
-print(res)
-exit()
-
-
-print((1j**2).real)
-exit()
-
-
-a=["c","b","a"]
-a=a[::-1]
-print(a[1])
-exit()
-
-
-arr=[0,1,1,0]
-for val in arr:
-    if val==0:
-        arr[val]=1
-print(arr)
-exit()
-
-
-num1=[1,3,4,5]
-num2=num1
-num2[0]=5
-print(num1[0])
-exit()
-
-
-a=("la")
-b=("g")
-c=a+"o"+b
-print(c[::-1])
-exit()
-
-
-mylist=[1,2,3,4,5,6]
-print(mylist[2:5])
-mylist[2:5]=[]
-print(mylist)
-print(len(mylist))
-exit()
-
-
-print("sololearn"[:1])
-exit()
-
-
-a=chr(65)
-b=ord("a") 
-print(a==chr(b))
-exit()
-
-
-import re
-pattern = r"[\d]+"
-x=re.search(pattern,"good luck in 2017!")
-y=x.group()
-print(int(y)%100+3)
-exit()
-
-
-a=[1,2,3]
-b=[4,5]
-a.append(b)
-a.extend(b)
-print(a)
-exit()
-
-
-import random
-print(random.randint(1,20))
-exit()
-
-
-a,b,*c=[x for x in range(0,12,3)]
-print(*c)
-exit()
-
-
-import numpy as np
-a = np.arange(0, 8, 2)
-b = np.arange(1, 8, 3)
-print(a[2] == b[1])
-exit()
-
-
-from functools import reduce
-mul = lambda n1, n2: n1 * n2
-class cls:
-    def __enter__(self):
-        # Return a function that calculates factorial
-        def f(n):
-            return reduce(mul, range(2, n + 1), 1)
-        return f  # Return the factorial function
-
-    def __exit__(self, *args):
-        pass
-
-with cls() as a:
-    print(a(5))  # Call the returned function a(5) to calculate factorial
+print("gameofdice"[::2])
 
 exit()
 
+print("#________Codecoach Challenges________Python____________________________")
 
-str1="5"
-str2="6"
-print(str1<str2)
-exit()
+'''
 
+'''
 
-print(7*(3+4-2)//5)
-exit()
-
-
-A=[8,0,-4,-6,1]
-for n in A:
-    if n<0:
-        A.append(abs(n))
-    x=n
-print(x)    
-exit()
-
-
-strList=['1','2','3','4','a']
-intList=[]
-for i in strList:
-    try:
-        intList.append(int(i))
-    except ValueError:
-        intList=['something not int']
-    finally:
-        inList=[]
-print(str(len(intList)))
-exit()
-
-
-import time
-print(time.sleep(1))    ## used for threading
-exit()
-
-
-arr=[4,3,2][1]
-print(arr)
-exit()
-
-
-print(abs(3+4j))
-exit()
-
-
-import numpy as np
-arr1=np.array([[1,2,3],[4,5,6]])
-arr1=arr1.transpose();
-print(arr1[1][0]);
-exit()
-
-
-class A:
-    @staticmethod
-    def sample(self):
-        print("static method")
-    @classmethod
-    def sample(self):
-        print("class method")
-A.sample()
-exit()
-
-
-class J(str):
-    def __init__(self, j):
-        self.j=j
-    def __add__(self,other):
-        self.j+other.j
-x=J(5)
-y=J(7)
-print(x+y)
-exit()
-
-
-def f(q,mylist=[]):
-    mylist=mylist+q
-    return mylist
-a=[1]
-print(f(a))
-a=[2]
-print(f(a))
-exit()
-
-
-a={0:1,1:2}
-_sum=0
-for b in a: _sum+=b-1    
-print(_sum + b) 
-exit()
-
-
-a={1:'a',2:'b'}
-b={2:'c',3:'d'}
-c={**a,**b}
-print(c[2])
-exit()
-
-
-
-def a(x):
-    return(x*7//5*10%4)
-nums=[2,4,8,3,1]
-print(a(nums[3]))
-exit()
 
 
 print("#Intro_python_______________ Introduction to Python____________________________")
@@ -283,8 +39,8 @@ print("#Intro_python_______________ Getting Started with Python_________________
 # print(6/2*3)
 # print(5+6/2*3)
 # print(7-5+6/2*3)
-# print()
-# print()
+# exit()
+# exit()
 # a=range(6)
 # r=a[3+1]*4%3    #operator precedance..?? Multiply after modulo
 # print(r)
@@ -335,14 +91,14 @@ print("#Intro_python_______________ Getting Started with Python_________________
 # print(next(i))   #https://www.geeksforgeeks.org/python-next-method/
 # print(next(i))
 # print(next(i))
-# print()
+# exit()
 
 # print("Mixing things up")
 # print(9 + 4 - 7)
 # print(9//4) #divide 9 how much to 4....that is...becomes...2
 # print(9%2)  #modular..///remander.. left for 9 to 2.. that is becomes...1
 # print(1%2)
-# print()
+# exit()
 
 # # #data types... 
 # print(type("0"))
@@ -360,7 +116,7 @@ print("#Intro_python_______________ Getting Started with Python_________________
 # print(a)
 # print(b)
 
-# print()
+# exit()
 # print("Balance", 5000,sep=":")
 # print(4%5) #is 4 .. any thing less than ... would be itself
 
@@ -408,7 +164,6 @@ print("#Intro_python_______________ Getting Started with Python_________________
 
 '''
 
-# print(len(str(8/2**2**2)))
 
 print("#Intro_python_______________ Interacting with the User__________________________")
 
@@ -436,7 +191,7 @@ print("#Intro_python_______________ Interacting with the User___________________
 
 
 
-# print()
+# exit()
 # x="2"
 # print(int(x)) #convert to string
 # print(float(x)) # convert to float
@@ -448,8 +203,8 @@ print("#Intro_python_______________ Interacting with the User___________________
 # print(name+ "is"+ age)
 
 # 
-# print()
-# print()
+# exit()
+# exit()
 
 #print("#In-Place Operator")
 # x = 2
@@ -466,7 +221,7 @@ print("#Intro_python_______________ Interacting with the User___________________
 # x %= 2
 # print("x%=2",x)
 
-# print()
+# exit()
 # x = "spam"
 # print("x = \"spam\"",x)
 
@@ -478,7 +233,7 @@ print("#Intro_python_______________ Interacting with the User___________________
 # print("x *= 3",x)
 
 
-# print()
+# exit()
 
 
 
@@ -505,29 +260,29 @@ print("#Intro_python_______________ Control Flow_________________________")
 
 '''
 # exit()
-# print()
+# exit()
 # print("# # Booleans  and comparision")
-# print()
+# exit()
 
 # print("2==3",2 == 3)           #equal.......... not assign
 # print("2 > 3 and 2<2",2 > 3 and 2<2)    #and 
 # print("2 > 3 and 2==2",2 > 3 and 2==2)   #lessthan ..... greaterthan ......comparative
 # print("2 == 3 or 2>=2",2 == 3 or 2>=2)   #greater or equal
 # print("0== 0 or 2 != 3",0== 0 or 2 != 3)  #the not equal to operator
-# print()
+# exit()
 # print("0  == 0 or True)",0  == 0 or True)#2 <>3)   #the not equal to operator
-# print()
+# exit()
 # # oeprator
 # a=b=c=2
 # print(a==b==c)
-# print()
+# exit()
 # #send to string operation
 # x="slooealrn"
 
 # y=x[:]
 # print(id(x)==id(y))
 
-# print()
+# exit()
 
 # print("alphabetical order of their component letters")
 # print("ord('a')",ord('a'))
@@ -536,21 +291,21 @@ print("#Intro_python_______________ Control Flow_________________________")
 
 # print("\"Bob\" > \"Dave\"","Bob" > "Dave")
 
-# print()
-# print()
+# exit()
+# exit()
 
 # x = (7 > 5)
 # print("int(7 > 5)",int(x))
 # print("int not(7 > 5)",int(not x))
-# print()
+# exit()
 # print("joining by converting each string to ord of \"hello world\"")
 # s = "hello world"
 # print(''.join(str(ord(c)) for c in s))
 
-# print()
+# exit()
 
 # print("#if statement")
-# print()
+# exit()
 
 # print("if #condition:")
 # print("   #statements    ")
@@ -560,10 +315,10 @@ print("#Intro_python_______________ Control Flow_________________________")
     # print("x is greater than 5")
 
 
-# print()
+# exit()
 
 # print(" else statment")
-# print()
+# exit()
 
 # x = 4
 # if x == 5:
@@ -573,7 +328,7 @@ print("#Intro_python_______________ Control Flow_________________________")
 
 
 
-# print()   
+# exit()   
 
 
 # a=8
@@ -592,7 +347,7 @@ print("#Intro_python_______________ Control Flow_________________________")
     # print("dc")
 
 # print("# Boolean Logic")
-# print()   
+# exit()   
 
 # print(3.0==3) 
 # print(0.0==0) 
@@ -601,33 +356,33 @@ print("#Intro_python_______________ Control Flow_________________________")
 # print("1 == 1 and 2 == 3",1 == 1 and 2 == 3)
 # print("1 != 1 and 2 == 2",1 != 1 and 2 == 2)
 # print("2 < 1 and 3 > 6",2 < 1 and 3 > 6)
-# print()
+# exit()
 # print("#or")
 # print( "1 == 1 or 2 == 2",1 == 1 or 2 == 2)
 # print( "1 == 1 or 2 == 3 ",1 == 1 or 2 == 3 )
 # print( "1 != 1 or 2 == 2 ",1 != 1 or 2 == 2 )
 # print( "2 < 1  or 3 > 6 ",2 < 1  or 3 > 6 )
-# print()
+# exit()
 # print(" Boolean Not")
 
 # print("not 1 == 1",not 1 == 1)
 
-# print()
+# exit()
 # print(" Boolean Operator preccedance      NOT > XOR > AND > OR    derived from C")
 # print(not True and True)
 # print("2>3 and 4<2 or 3>3 and 2>3 or not(3>3)",2>3 and 4<2 or 3>3 and 2>3 or not(3>3))
-# print()
+# exit()
 # # logical operator
 # print('p' == 'p',[]is[])
 # print('p' == 'p',[]is[])
 # # print([]is[])
 
 
-# print()
+# exit()
 
 # print("# while loops")
 
-# print()
+# exit()
 
 # # loop
 # count=0
@@ -661,7 +416,7 @@ print("#Intro_python_______________ Control Flow_________________________")
 
 # print("Finished!")
 
-# print()
+# exit()
 
 # print("cummulative finder")
 # sum = 0
@@ -673,14 +428,14 @@ print("#Intro_python_______________ Control Flow_________________________")
 # print(sum)
 
 
-# print()
+# exit()
 # for i in range(5):
     # i=i+i
     
 # print(i)
 
 # # other possilble way
-# print()
+# exit()
 # i=0
 # for x in range(8):
     # if x%2==0:
@@ -703,7 +458,7 @@ print("#Intro_python_______________ Control Flow_________________________")
 
 
 
-# print()
+# exit()
 # # import itertools as it
 # # for i in it.count(1):
     # # if(100-i==0):
@@ -716,7 +471,7 @@ print("#Intro_python_______________ Control Flow_________________________")
 # print(sum(abc))
 
 
-# print()
+# exit()
 # x = 1
 # while x < 10:
   # if x%2 == 0:
@@ -726,10 +481,10 @@ print("#Intro_python_______________ Control Flow_________________________")
 
   # x += 1
 
-# print()
+# exit()
 
 # print(" # break continue")
-# print()
+# exit()
 
 # print("break statment")
 # i = 0
@@ -742,7 +497,7 @@ print("#Intro_python_______________ Control Flow_________________________")
     # break
 
 # print("Finished")
-# print()
+# exit()
 # print("continue statment")
 
 # i = 0
@@ -753,7 +508,7 @@ print("#Intro_python_______________ Control Flow_________________________")
     # continue
   # print(i)
 
-# print()
+# exit()
 
 
 
@@ -767,7 +522,7 @@ print("#Intro_python_______________ Control Flow_________________________")
         # print(i)
 
 
-# print()
+# exit()
 
 # print(" Now this could be considered perfect:  # ticket issue ")
 # print(" While loop exit problem.... help .. for calculator .. a sorth.. tinkitner")
@@ -830,16 +585,180 @@ print("#Intro_python_______________ Control Flow_________________________")
 
 
 
-
-
-exit()
-'''
-
 # i=1
 # while i<=10:
     # print(i+1)
     # i*=2
-    
+
+# print(len(str(8/2**2**2)))
+# exit()
+# x=0b0010
+# print(x)
+# exit()
+
+# print((1j**2).real)
+# exit()
+
+# a=chr(65)
+# b=ord("a") 
+# print(a==chr(b))
+
+# exit()
+
+
+# str1="5"
+# str2="6"
+# print(str1<str2)
+# exit()
+
+
+# print(7*(3+4-2)//5)
+# exit() 
+
+# print(abs(3+4j))
+# exit()
+
+
+
+# exit()
+# x=[2,3,4]
+# y=x
+# print(y is x)
+# y=x[:]
+# print(y is x)
+
+# exit()
+
+
+# exit()
+# i=1
+# while i<=10:
+    # print(''.join(map(str,list(range(i+1)))))
+    # i*=2
+
+# exit()
+# person={"Name":"Sarah","Age":"18"}
+# person["Name"]="Sia"
+# person["Age"]="18+"
+# if "18+" not in person:
+    # print("a")
+# else:
+    # print("b")
+
+
+# exit()
+# for i in range(2):
+    # print(i)
+# for i in range(4,6):
+    # print(i)
+
+
+# exit()
+# a=[[1,2],[2,3],[3,4]]
+# b=[x for x in a for x in x]
+# print(b)
+
+
+# arr=[1,(2,3),4]
+# n=len(arr)
+# if (2 in arr):
+    # n=n+len(arr[1])
+# print(n)
+
+
+# i=1
+# while i<=10:
+    # if i==4:
+        # break
+    # i+=i
+# print(i)
+
+# exit()
+
+# a="Hello !"
+# newHello=[]
+# for hi in a:
+   # for by in range(2):
+    # newHello.append(hi)
+    # print(newHello)
+# print(len(newHello))
+
+# exit()
+
+# exit()
+# s='think'
+# s=''.join(sorted(list(s)[:4]))
+# print(s)
+# exit()
+# a='solo'
+# print(a.zfill(6))
+# exit()
+# my_num=1234
+# a=str(my_num//1000%10) #print(1%10)
+# b=str(my_num//100%10) #print(12%10)
+# c=str(my_num//10%10) #print(123%10)
+# d=str(my_num//1%10) #print(1234%10)
+# print(d+c+b+a)
+
+# exit()
+# x=[i for i in range(3,15,3)]
+# y=x
+# print(x)
+# y.append([i for i in range(2,14,3)])
+# print(y)
+# print(x)
+# print(len(x)/1)
+
+# exit()
+# x=[1,3,5]
+# print(x in x)
+# exit()
+# a=[1,2,4,5]
+# print(a[1:5])#=[1]
+# a[1:5]=[1]
+# print(a)
+# exit()
+# a=0
+# b=0
+# x=[a,b]
+# y=(1,2)
+# x=y
+# print(x,a,b)
+
+# exit()
+# lst=[].append(5)
+# print(lst)
+# exit()
+# a={1,3,5}
+# b={2,4,6}
+# for i in range(7):
+    # if i not in a and i not in b:
+        # print(False)
+        # break
+    # else:
+        # print(True)
+
+# exit()
+# print(int('sdfd')) # error types
+# exit()
+
+
+# # print(type({})==type({1})) # why is this?
+# print(type([])==type([1]))  #??
+# print(type(())==type((1,2)))    #??
+
+# exit()
+
+# x="hello!"
+# for i in range(0,len(x)-1):
+    # print(x[i])
+
+# exit()
+
+
+
+exit()
+'''
 
 print("#Intro_python_______________ Lists______________________________")
 
@@ -878,9 +797,9 @@ print("#Intro_python_______________ Lists______________________________")
 # strt = "Hello world!"
 # print(strt[6])
 
-# print()
-# print()
-# print()
+# exit()
+# exit()
+# exit()
 
 # # # iterate throguh a list and dump the list
 
@@ -916,7 +835,7 @@ print("#Intro_python_______________ Lists______________________________")
 
 # print(a)
 
-# print()
+# exit()
 
 # a,b=[0],[0]
 # a,b=b,a
@@ -931,7 +850,7 @@ print("#Intro_python_______________ Lists______________________________")
     # print(False)
 
 
-# print()
+# exit()
 
 # L=list(range(10))
 
@@ -1041,7 +960,7 @@ print("#Intro_python_______________ Lists______________________________")
 
 # for i in range(5):
 	# print(i, end=" ")
-# print()
+# exit()
 
 ## The remove method working 
 # l = ['Alice', 'Bob', 'Charlie', 'Bob', 'Dave']
@@ -1054,7 +973,7 @@ print("#Intro_python_______________ Lists______________________________")
 # # In this example, we are printing the number from 0 to 5. We are using the range function in which we are passing the stopping of the loop... printing first 6  whole number
 # for i in range(6):
 	# print(i, end=" ")
-# print()
+# exit()
 
 
 # for i in range(5, 20): # printing a naturar number from 5 to 20
@@ -1063,18 +982,18 @@ print("#Intro_python_______________ Lists______________________________")
 
 # for i in range(0, 10, 2): # Example of Python range (start, stop, step)
 	# print(i, end=" ")
-# print()
+# exit()
 
 
 
 # for i in range(0, 30, 4): #incremented by 4
 	# print(i, end=" ")
-# print()
+# exit()
 
 
 # for i in range(25, 2, -2): #incremented by -2
 	# print(i, end=" ")
-# print()
+# exit()
 
 
 
@@ -1561,7 +1480,7 @@ b = copy.deepcopy(a) ## this will copy the list a to list b
 
 print(b)
 
-print()
+exit()
 a=[1,2,3,4]
 print(a[2:2])
 
@@ -1647,7 +1566,7 @@ print(sum(my_list))
 
 
 print(list(range(4,7,2)))
-print()
+exit()
 
 my_list=["car","plane","train","bike","rocket"]
 newlist=sorted(my_list)
@@ -1707,7 +1626,7 @@ b.append(5)
 
 print(b)
 
-print()
+exit()
 
 lar_num=0
 print(list(range(0,10,3)))
@@ -1826,8 +1745,219 @@ exit()
 # print(len(a[1:]))
 
 
+# a=[1,2,3,5,8,13]
+# print(a[2:2])
+# exit()
+
+# arr=[1,0,1,0]
+# a=all(arr)
+# s=sum(arr)
+# if a or s:
+    # print(a or s)
+# else:
+    # pass
+# exit()
+
+
+# squares=[0,1,4,8,16]
+# quaras=squares
+# squares[3]=0
+# print(quaras)
+# exit()
+
+# nums=[11,22,33,44,55]
+# res=list(filter(lambda x:not(x%2==0),nums))
+# print(res)
+# exit()
+
+
+
+# a=["c","b","a"]
+# a=a[::-1]
+# print(a[1])
+# exit()
+
+
+# exit()
+
+# arr=[0,1,1,0]
+# for val in arr:
+    # if val==0:
+        # arr[val]=1
+# print(arr)
+# exit()
+
+
+# num1=[1,3,4,5]
+# num2=num1
+# num2[0]=5
+# print(num1[0])
+# exit()
+
+# exit()
+
+# mylist=[1,2,3,4,5,6]
+# print(mylist[2:5])
+# mylist[2:5]=[]
+# print(mylist)
+# print(len(mylist))
+# exit()
+
+
+# print("sololearn"[:1])
+# exit()
+
+
+
+# a=[1,2,3]
+# b=[4,5]
+# a.append(b)
+# a.extend(b)
+# print(a)
+# exit()
+
+
+# a,b,*c=[x for x in range(0,12,3)]
+# print(*c)
+# exit()
+
+# A=[8,0,-4,-6,1]
+# for n in A:
+    # if n<0:
+        # A.append(abs(n))
+    # x=n
+# print(x)    
+# exit()
+
+
+# strList=['1','2','3','4','a']
+# intList=[]
+# for i in strList:
+    # try:
+        # intList.append(int(i))
+    # except ValueError:
+        # intList=['something not int']
+    # finally:
+        # inList=[]
+# print(str(len(intList)))
+# exit()
+
+
+
+# arr=[4,3,2][1]
+# print(arr)
+# exit()
+
+
+
+# a={0:1,1:2}
+# _sum=0
+# for b in a: _sum+=b-1    
+# print(_sum + b) 
+# exit()
+
+
+
+
+# a={1:'a',2:'b'}
+# b={2:'c',3:'d'}
+# c={**a,**b}
+# print(c[2])
+# exit()
+
+
+# exit()
+# a=[i//2 for i in range(50) if i//2==20]
+# print(len(a))
+# exit()
+# x=0
+# for i in range(2,20,3): # [2, 5, 8, 11, 14, 17]
+    # if i%2 ==0:
+        # print(x)
+        # x+=1
+# print(x)
+
+# exit()
+# list1=[1,2]
+# list2=list1
+# list3=list1[:]  # python hates beign assigned to ..[] values for list
+# a=list2 is list1
+# b=list3 is list1
+# # print(b)
+# print(a,b)
+
+# exit()
+# arr=['b','c','d']   #converting list to dictionar bu assiend keys
+# x={1:'a'}
+# n=1
+# for x[n] in arr:
+    # print(x)
+    # n+=1
+# print(x)
+
+
+# exit()
+# n=0
+# a=5
+# b=3
+# while a>0:
+    # b+=1
+    # a-=1
+    # n+=1
+# print(n) #5,4,3,2,1
+# exit()
+# def rec(x,y):
+    # if(x==0):
+        # return y;
+    # if(x!=0):
+        # return rec(x-1,y+1);    
+# print(rec(3,4));
+
+# exit()
+# I=[]
+# for i in range(17):
+    # I.append(i*2) #print(I) find all even interger b/n 0-(17-1)*2
+# m=[x|1 for x in I] #bitwise OR
+# k=[x&1 for x in I] #bitwise AND
+# p=[x^1 for x in I] #bitwise XOR
+# n=[~x for x in I] #bitwise NOT
+# print(sum(m))
+# print(sum(k))
+# print(sum(p))
+# print(sum(n))
+
+# exit()
+# x=1
+# while x<5:
+    # x*=2
+# print(x)
+
+# exit()
+
+# a=[]
+# b=[a,a,a]
+# print(b)
+# for x in b:
+    # n=len(x)
+    # # print(n)
+    # x.append(n)
+    # print(x)
+# print(b)
+# print(b[0])
+# exit()
+
+exit()
+A=[8,0,-4,-6,1]
+for n in A:
+    if n<0:
+        # print(n)
+        A.append(abs(n))
+    print(n)
+    x=n
+print(x)
 
 '''
+
 
 
 
@@ -1942,7 +2072,7 @@ print('The updated list is:', cars)
 # print(arr1)
 
 
-# print()
+# exit()
 
 # import numpy as np
 # a=np.array([1,2,3,5,8])
@@ -2256,7 +2386,110 @@ print(fs(lst,f))
 
 
 exit()
+
+# exit()
+# def f(q,mylist=[]):
+    # mylist=mylist+q
+    # return mylist
+# a=[1]
+# print(f(a))
+# a=[2]
+# print(f(a))
+# exit()
+
+
+# def a(x):
+    # return(x*7//5*10%4)
+# nums=[2,4,8,3,1]
+# print(a(nums[3]))
+# exit()
+
+
+
+# exit()
+# def cm():
+    # return [lambda x:i*x for i in range(3)]
+
+# for m in cm():
+    # print(m(2),end='')
+
+# exit()
+# def f(x):
+    # return g(x)+3%2
+# def g(x):
+    # return x**2+2
+# print(f(g(1)))   
+
+
+
+# exit()
+
+# def fun(a):
+    # x=range(a)
+    # y=eval('*'.join([str(i+1) for i in x])) #1*,2*3*4*5*6
+    # return y
+# x=range(6)
+# y=[str(i+1) for i in x]
+# y='*'.join([str(i+1) for i in x])
+# print(y)
+# print(fun(6))
+
+# exit()
+
+
+# def sub(x,y):
+    # return(x-y)
+# def mult(x,y):
+    # return x*y
+# def pr(f1,f2,d):
+    # print(f1(f2(d+1,d),d))
+# pr(mult,sub,4)
+
+# exit()
+# def f(x):
+    # return(2*x+1)
+# def g(x):
+    # return (x-1)
+# print(g(f(2))-f(g(2)))
+
+# exit()
+# def f(q,mylist=[]):
+    # mylist=mylist+q
+    # return mylist
+# a=[1]
+# print(f(a))
+# a=[2]
+# print(f(a))
+
+exit()
+
+# def guess(list1):
+    # list2=list1
+    # list2.append(4)
+    # list1=[5,6,7]
+# list1=[1,2,3]
+# guess(list1)
+# print(sum(list1))
+# exit()
+
 '''
+
+
+# def dec(x):
+    # def f(a,b):
+        # print("Solo",end="")
+        # if b==0:
+            # print("Learn",end="")
+            # return
+        # return dec(a,b)
+    # return f
+# @dec
+# def dec(a,b):
+    # return a/b
+# dec(3,0)
+
+
+
 
 print("Inter_Python_____________Dictonary// ___________________")
 
@@ -2344,16 +2577,26 @@ print(L)
 # print(my_dict)
 
 
-
-
-'''
-
-
 # a={1:[1,2,3]}
 # b=a.copy()
 # a[1].append(4)
 # print(a)
 # print(a==b)
+
+
+exit()
+
+# exit()
+# dic={1:'X',3:'Y',2:'z'}
+# for item in dic:
+    # print(dic[item])
+    # # print(item)
+
+# exit()
+
+
+'''
+
 
 
 
@@ -2434,12 +2677,24 @@ print(ans)
 # print(type(1,))
 # print(type((1,2)))
 
-'''
 
 
 # paris=[(x,x**2)for x in range(1,5)]
 # print(paris)
 # print(paris[2][1])
+# exit()
+
+
+# a=("la")
+# b=("g")
+# c=a+"o"+b
+# print(c[::-1])
+# exit()
+
+'''
+
+
+
 
 
 print("Inter_python _______________ Sets //________________________")
@@ -2557,17 +2812,26 @@ a=Class(5)
 print(a.n)
 
 
-
-
-'''
-
 # set={1,3,5,6,8,8,3,2}
 # print(len(set))   # repetation is not allowed.. 
 # print(len(set)+int("3"))
 
 
-print("Inter_python ___________________ Functional Programming______________________________")
 
+# exit()
+# a=[1,5,13,4,19,14]
+# b=[5,12,48,6,14,1]
+# c=len(set(a)&set(b))
+# print(c)
+
+# exit()
+
+
+
+'''
+
+
+print("Inter_python ___________________ Functional Programming______________________________")
 
 '''
 
@@ -2607,10 +2871,43 @@ print("Inter_python ___________________ Functional Programming__________________
     # print(num)
     # next(G)
     # next(G)
-
-
+# exit()
 
 '''
+# import re
+# pattern = r"[\d]+"
+# x=re.search(pattern,"good luck in 2017!")
+# y=x.group()
+# print(int(y)%100+3)
+# exit()
+
+'''
+# import random
+# print(random.randint(1,20))
+# exit()
+
+
+# import numpy as np
+# a = np.arange(0, 8, 2)
+# b = np.arange(1, 8, 3)
+# print(a[2] == b[1])
+# exit()
+
+
+
+# import time
+# print(time.sleep(1))    ## used for threading
+# exit()
+
+
+# import numpy as np
+# arr1=np.array([[1,2,3],[4,5,6]])
+# arr1=arr1.transpose();
+# print(arr1[1][0]);
+# exit()
+
+'''
+
 
 
 
@@ -2669,10 +2966,95 @@ print(A.hp+B.hp-C.hp)
 # print(r.y)
 # print(r.x*r.y)
 
+exit()
+
+
+# class foo:
+    # def bar(self):
+        # pass
+
+# print(foo.bar.__name__)
+
+# exit()
+
+# from functools import reduce
+# mul = lambda n1, n2: n1 * n2
+# class cls:
+    # def __enter__(self):
+        # # Return a function that calculates factorial
+        # def f(n):
+            # return reduce(mul, range(2, n + 1), 1)
+        # return f  # Return the factorial function
+
+    # def __exit__(self, *args):
+        # pass
+
+# with cls() as a:
+    # print(a(5))  # Call the returned function a(5) to calculate factorial
+
+# exit()
+
+# class A:
+    # @staticmethod
+    # def sample(self):
+        # print("static method")
+    # @classmethod
+    # def sample(self):
+        # print("class method")
+# A.sample()
+# exit()
+
+
+# class J(str):
+    # def __init__(self, j):
+        # self.j=j
+    # def __add__(self,other):
+        # self.j+other.j
+# x=J(5)
+# y=J(7)
+# print(x+y)
+# exit()
+
+exit()
+add=lambda x,y: x+y
+class Add:
+    def __init__(self,n):
+        self.n=n
+    def __add__(self,other):
+        if type('')in (type(self.n),type(other)):
+            return add(str(self.n),str(other))
+        return add(self.n,other)
+
+print(Add(7)+'4')
+
+exit()
+
+
+
+class Go:
+    def __call__(self,x):
+        return x
+print(Go()(5))
+exit()
+try:
+    print(Go()(5))
+except:
+    print(0)
+exit()
+
+
 
 '''
 
 
+# class A:
+    # def __init__(self):
+        # self.a=0
+    # def change(self,n):
+        # a=n
+# obj=A()
+# obj.change(2)
+# print(obj.a)
 
 print("Inter_python ___________________ Exception______________________________")
 
